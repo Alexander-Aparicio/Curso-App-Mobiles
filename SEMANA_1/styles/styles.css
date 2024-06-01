@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: beige;
+}
+.index {
+    border-color: burlywood;
+    color: rgb(41, 48, 48);
+    font-size: 16px;
+}
+.h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+.h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+/* Header */
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: solid 1px darkgoldenrod ;
+    min-height: 20px;
+    background-color: darkgoldenrod;
+}
+.header div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    background-color: darkgoldenrod;
+}
+.header div p {
+    color: rgb(254, 248, 206);
+    text-decoration: none;
+    padding: 13px 0 13px 0;
+    cursor: pointer;
+}
+/* CONTACT */
+.page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 25px 20px;
+}
+.page .h1 {
+    margin-bottom: 25px;
+}
+.students {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+}
+.students .name {
+    cursor: pointer;
+}
+.students .description {
+    padding-top: 15px;
+    padding-left: 15px;
+}

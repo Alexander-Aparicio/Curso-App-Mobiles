@@ -1,0 +1,44 @@
+{
+    "students":[
+        {
+            "name":"Alexander Meza",
+            "id":"1",
+            "dni": 68597845,
+            "profession": "Economista",
+            "country": "peruano",
+            "phone": 987456321 
+        },
+        {
+            "name":"Milton Friedman",
+            "id":"2",
+            "dni": 68597845,
+            "profession": "Economista",
+            "country": "estadounidense",
+            "phone": 999456327 
+        },
+        {
+            "name":"John Nash",
+            "id":"3",
+            "dni": 68597845,
+            "profession": "Matemático",
+            "country": "estadounidense",
+            "phone": 988456322 
+        },
+        {
+            "name":"Adam Smith",
+            "id":"4",
+            "dni": 68597845,
+            "profession": "Economista",
+            "country": "escocés",
+            "phone": 955456322 
+        },
+        {
+            "name":"Hernando de Soto",
+            "id":"5",
+            "dni": 68597845,
+            "profession": "Economista",
+            "country": "peruano",
+            "phone": 980056328 
+        }
+    ]
+}
